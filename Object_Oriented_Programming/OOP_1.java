@@ -34,3 +34,38 @@ public class OOP_1{
 //if we create our class in a different file then we have to import that class in the file where we want to use it.
 // import package_name.Class_name; example import OOP_1.Student
 
+// Method:
+//  A method is a block of code which can be called multiple times from our program.
+
+//example:
+/*
+    class Numbers {
+      // Properties
+      private int a;
+      private int b;
+  
+      // Methods
+      public void sum(){            //this is a method, we can call this method multiple times from our program, it is returning (a + b) means add a and b.
+        System.out.println(a+b);
+    }
+  
+      public void sub(){
+          System.out.println(a-b);
+    }
+  
+    public static void main (String[] args) {
+      
+          // Creating Instance of Class
+          // Object
+        Numbers obj=new Numbers();
+      
+          // Assigning Values to the Properties
+          obj.a=1;
+          obj.b=2;
+      
+          // Using the Methods
+          obj.sum();
+          obj.sub();
+    }
+}
+ */
