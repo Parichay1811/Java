@@ -1,0 +1,16 @@
+Properties of OOP:
+there are 4 mamin Properties of an Object Oriented Programming language
+1. Inheritance:
+    It is the mechanism in Java by which child class is allowed to inherit the features(fields and methods) of it's parent class. In Java, Inheritance means creating new classes based on existing ones. Just like the human chiled can use the property of his parent like eye color, hair color etc. In java this happes using the 'extends' keyword.
+
+    Syntax: 
+    class child extends parent{
+    }
+     
+    Child class have even more properties than it's parent. It can have it's own properties and methods as well as it can inherit the properties and methods of the parent class.
+
+    Child class can access the properties of the parent class but it can't change the properties of the parent class.
+    also, parent class objects can not access the properties of the child class.
+2. Polymorphism
+3. Encapsulation
+4. Abstraction
